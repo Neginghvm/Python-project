@@ -2,6 +2,9 @@ def EX1_4(day):
   '''
   the program should display the corresponding day of the week and returns an error message ( this is not correct)
   if the user enter a number that is outside the range of 1 throught 7.
+  example:
+  >>>EX1_4(5)
+  FRIDAY
 '''
   if day==1:
     terurn "MONDAY"
