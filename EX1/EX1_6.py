@@ -1,6 +1,9 @@
 def EX1_6(rom_num):
   '''
   this program shows the ROMAN NUMERAL version of the number,if the number is outside the range of 1 through 10 the program returns an error message ( tis is not correct )
+  example:
+  >>>EX1_6(5)
+  V
   '''
   if rom_num==1:
     return "I"
