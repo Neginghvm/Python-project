@@ -2,7 +2,7 @@ def EX1_5(age):
   '''
   the program should display a message indicating whether the person is an infant, a child, a teenager, or an adult.
   example:
-  >>>ex1_5(18)
+  >>>EX1_5(18)
   teenager
   '''
   
