@@ -2,10 +2,10 @@
 Negin Ghavami
 4012061032
 """
-def seconds_difference(time-1, time-2):
+def seconds_difference(time1 , time2):
   """ (number, number) -> number
   Return the number of seconds later that a time in seconds
-  time-2 is than a time in seconds time-1.
+  time2 is than a time in seconds time1.
         
   >>> seconds_difference(1800.0, 3600.0)
   1800.0
@@ -16,17 +16,17 @@ def seconds_difference(time-1, time-2):
   >>> seconds_difference(1800.0, 1800.0)
   0.0
   """
-  seconds_difference = time-2 - time-1
+  seconds_difference = time2 - time1
   return seconds_difference
 
 
     
 
 
-def hours_difference(time-1, time-2):
+def hours_difference(time1, time2):
   """ (number, number) -> float
   Return the number of hours later that a time in seconds
-  time-2 is than a time in seconds time-1.
+  time2 is than a time in seconds time1.
         
   >>> hours_difference(1800.0, 3600.0)
   0.5
@@ -37,7 +37,7 @@ def hours_difference(time-1, time-2):
   >>> hours_difference(1800.0, 1800.0)
   0.0
   """
-  seconds_difference = time-2 - time-1
+  seconds_difference = time2 - time1
   hours_difference = seconds_difference / (60 * 60)
   return hours_difference
 
